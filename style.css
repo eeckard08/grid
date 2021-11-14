@@ -11,6 +11,8 @@
     display:grid;
     place-items:center;
     margin:0;
+    grid-column-start:1;
+    grid-column-end:4;
 }
 #three {
     background-color: #eee;
@@ -38,8 +40,8 @@
 }
 .wrapper    {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
     place-items:stretch;
     grid-gap: 10px;
     justify-content:center;
