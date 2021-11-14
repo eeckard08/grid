@@ -1,0 +1,47 @@
+#one {
+    background-color: #eee;
+    display:grid;
+    place-items:center;
+    margin:0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#two {
+    background-color: #eee;
+    display:grid;
+    place-items:center;
+    margin:0;
+}
+#three {
+    background-color: #eee;
+    display:grid;
+    place-items:center;
+    margin:0;
+}
+#four {
+    background-color: #eee;
+    display:grid;
+    place-items:center;
+    margin:0;
+}
+#five {
+    background-color: #eee;
+    display:grid;
+    place-items:center;
+    margin:0;
+}
+#six {
+    background-color: #eee;
+    display:grid;
+    place-items:center;
+    margin:0;
+}
+.wrapper    {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    place-items:stretch;
+    grid-gap: 10px;
+    justify-content:center;
+
+}
